@@ -158,10 +158,6 @@ Finished 2 cases!
 ```
 ❯ yarn bench
 Running "Internal absolute url" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    1 038 833 ops/s, ±0.37%
 Progress: 100%
 
   hexo-util-rs:
@@ -174,10 +170,6 @@ Finished 2 cases!
   Fastest: hexo-util-rs
   Slowest: hexo-util
 Running "External absolute url" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    953 787 ops/s, ±0.41%
 Progress: 100%
 
   hexo-util-rs:
@@ -190,10 +182,6 @@ Finished 2 cases!
   Fastest: hexo-util-rs
   Slowest: hexo-util
 Running "Relative absolute url" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    42 956 520 ops/s, ±0.87%
 Progress: 100%
 
   hexo-util-rs:
@@ -215,10 +203,6 @@ Finished 2 cases!
 ```
 ❯ yarn bench
 Running "Encode URL - auth" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    1 299 520 ops/s, ±0.86%
 Progress: 100%
 
   hexo-util-rs:
@@ -231,10 +215,6 @@ Finished 2 cases!
   Fastest: hexo-util-rs
   Slowest: hexo-util
 Running "Encode URL - Internationalized domain name" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    599 196 ops/s, ±0.87%
 Progress: 100%
 
   hexo-util-rs:
@@ -247,10 +227,6 @@ Finished 2 cases!
   Fastest: hexo-util-rs
   Slowest: hexo-util
 Running "Encode URL - path with unicode" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    1 348 834 ops/s, ±1.38%
 Progress: 100%
 
   hexo-util-rs:
@@ -272,10 +248,6 @@ Finished 2 cases!
 ```
 ❯ yarn bench
 Running "Decode URL - regular" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    1 632 744 ops/s, ±0.75%
 Progress: 100%
 
   hexo-util-rs:
@@ -288,10 +260,6 @@ Finished 2 cases!
   Fastest: hexo-util-rs
   Slowest: hexo-util
 Running "Decode URL - path with space" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    2 630 212 ops/s, ±1.67%
 Progress: 100%
 
   hexo-util-rs:
@@ -304,10 +272,6 @@ Finished 2 cases!
   Fastest: hexo-util-rs
   Slowest: hexo-util
 Running "Decode URL - space" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    1 228 376 ops/s, ±6.64%
 Progress: 100%
 
   hexo-util-rs:
@@ -320,10 +284,6 @@ Finished 2 cases!
   Fastest: hexo-util-rs
   Slowest: hexo-util
 Running "Decode URL - hash and query" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    781 550 ops/s, ±1.90%
 Progress: 100%
 
   hexo-util-rs:
@@ -336,10 +296,6 @@ Finished 2 cases!
   Fastest: hexo-util-rs
   Slowest: hexo-util
 Running "Decode URL - Internationalized domain name" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    492 862 ops/s, ±6.49%
 Progress: 100%
 
   hexo-util-rs:
@@ -361,10 +317,6 @@ Finished 2 cases!
 ```
 ❯ yarn bench
 Running "default" suite...
-Progress: 50%
-
-  hexo-util-rs:
-    4 152 262 ops/s, ±1.20%
 Progress: 100%
 
   hexo-util-rs:
@@ -386,17 +338,6 @@ Finished 2 cases!
 ```
 ❯ yarn bench
 Running "mini fixture" suite...
-Progress: 33%
-
-  hexo-util-rs-buffer:
-    996 155 ops/s, ±1.41%
-Progress: 67%
-
-  hexo-util-rs-buffer:
-    996 155 ops/s, ±1.41%
-
-  hexo-util-rs:
-    1 188 802 ops/s, ±0.36%
 Progress: 100%
 
   hexo-util-rs-buffer:
@@ -412,17 +353,6 @@ Finished 3 cases!
   Fastest: hexo-util-rs
   Slowest: hexo-util
 Running "large fixture" suite...
-Progress: 33%
-
-  hexo-util-rs-buffer:
-    30 402 ops/s, ±0.64%
-Progress: 67%
-
-  hexo-util-rs-buffer:
-    30 402 ops/s, ±0.64%
-
-  hexo-util-rs:
-    27 585 ops/s, ±1.81%
 Progress: 100%
 
   hexo-util-rs-buffer:
@@ -447,17 +377,6 @@ Finished 3 cases!
 ```
 ❯ yarn bench
 Running "mini fixture" suite...
-Progress: 33%
-
-  hexo-util-rs-buffer:
-    1 406 688 ops/s, ±2.06%
-Progress: 67%
-
-  hexo-util-rs-buffer:
-    1 406 688 ops/s, ±2.06%
-
-  hexo-util-rs:
-    2 013 858 ops/s, ±0.73%
 Progress: 100%
 
   hexo-util-rs-buffer:
@@ -473,17 +392,6 @@ Finished 3 cases!
   Fastest: hexo-util-rs
   Slowest: hexo-util
 Running "large fixture" suite...
-Progress: 33%
-
-  hexo-util-rs-buffer:
-    101 859 ops/s, ±1.56%
-Progress: 67%
-
-  hexo-util-rs-buffer:
-    101 859 ops/s, ±1.56%
-
-  hexo-util-rs:
-    96 883 ops/s, ±2.48%
 Progress: 100%
 
   hexo-util-rs-buffer:
@@ -508,14 +416,14 @@ Finished 3 cases!
 ```
 ❯ yarn bench
 Running "default" suite...
-Progress: 50%
-  hexo-util-rs:
-    4 833 899 ops/s, ±0.47%
 Progress: 100%
+
   hexo-util-rs:
     4 833 899 ops/s, ±0.47%   | fastest
+
   hexo-util:
     3 128 195 ops/s, ±1.36%   | slowest, 35.29% slower
+
 Finished 2 cases!
   Fastest: hexo-util-rs
   Slowest: hexo-util
@@ -536,6 +444,396 @@ Progress: 100%
 
   hexo-util-rs:
     3 903 226 ops/s, ±0.89%   | fastest
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+```
+
+</details>
+
+
+### My performance
+
+Hardware info:
+
+```
+System Version: Windows 11 23H2
+Processor Name: 13th Gen Intel(R) Core(TM) i5-13400F
+Processor Speed: 2.5 GHz
+L2 Cache: 9.5 MB
+L3 Cache: 20 MB
+Memory: 32 GB
+node: v20.13.1
+rustc: 1.79.0
+```
+
+Benchmark:
+
+<details>
+<summary>Strip HTML</summary>
+
+```
+❯ yarn bench
+Running "mini fixture" suite...
+Progress: 100%
+
+  hexo-util-rs-buffer:
+    2 290 439 ops/s, ±0.70%   | fastest
+
+  hexo-util-rs:
+    2 194 136 ops/s, ±1.13%   | 4.2% slower
+
+  hexo-util:
+    1 661 721 ops/s, ±2.02%   | 27.45% slower
+
+  striptags:
+    914 273 ops/s, ±0.61%     | 60.08% slower
+
+  string-strip-html:
+    34 237 ops/s, ±0.68%      | slowest, 98.51% slower
+
+Finished 5 cases!
+  Fastest: hexo-util-rs-buffer
+  Slowest: string-strip-html
+Running "large fixture" suite...
+Progress: 100%
+
+  hexo-util-rs-buffer:
+    1 130 ops/s, ±0.90%   | fastest
+
+  hexo-util-rs:
+    852 ops/s, ±1.19%     | 24.6% slower
+
+  hexo-util:
+    367 ops/s, ±0.60%     | 67.52% slower
+
+  striptags:
+    231 ops/s, ±0.31%     | 79.56% slower
+
+  string-strip-html:
+    1 ops/s, ±1.40%       | slowest, 99.91% slower
+
+Finished 5 cases!
+  Fastest: hexo-util-rs-buffer
+  Slowest: string-strip-html
+```
+
+</details>
+
+<details>
+<summary>Slugify</summary>
+
+```
+❯ yarn bench
+Running "slugify and escape diacritic" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    1 513 805 ops/s, ±0.57%   | fastest
+
+  hexo-util:
+    371 613 ops/s, ±0.40%     | slowest, 75.45% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+```
+
+</details>
+
+<details>
+<summary>isExternalLink</summary>
+
+```
+❯ yarn bench
+Running "Internal absolute url" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    1 901 670 ops/s, ±0.40%   | slowest, 61.73% slower
+
+  hexo-util:
+    4 969 002 ops/s, ±0.62%   | fastest
+
+Finished 2 cases!
+  Fastest: hexo-util
+  Slowest: hexo-util-rs
+Running "External absolute url" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    1 816 194 ops/s, ±0.41%   | slowest, 60.79% slower
+
+  hexo-util:
+    4 632 289 ops/s, ±0.46%   | fastest
+
+Finished 2 cases!
+  Fastest: hexo-util
+  Slowest: hexo-util-rs
+Running "Relative absolute url" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    94 433 850 ops/s, ±0.69%   | fastest
+
+  hexo-util:
+    5 288 638 ops/s, ±0.50%    | slowest, 94.4% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+```
+
+</details>
+
+<details>
+<summary>Encode URL</summary>
+
+```
+❯ yarn bench
+Running "Encode URL - auth" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    2 440 901 ops/s, ±0.51%   | fastest
+
+  hexo-util:
+    429 317 ops/s, ±0.38%     | slowest, 82.41% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+Running "Encode URL - Internationalized domain name" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    911 968 ops/s, ±0.46%   | fastest
+
+  hexo-util:
+    307 665 ops/s, ±0.59%   | slowest, 66.26% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+Running "Encode URL - path with unicode" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    2 104 690 ops/s, ±0.38%   | fastest
+
+  hexo-util:
+    1 651 607 ops/s, ±0.42%   | slowest, 21.53% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+```
+
+</details>
+
+<details>
+<summary>Decode URL</summary>
+
+```
+❯ yarn bench
+Running "Decode URL - regular" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    2 773 648 ops/s, ±1.03%   | fastest
+
+  hexo-util:
+    589 285 ops/s, ±0.84%     | slowest, 78.75% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+Running "Decode URL - path with space" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    3 380 141 ops/s, ±0.60%   | fastest
+
+  hexo-util:
+    2 263 874 ops/s, ±1.44%   | slowest, 33.02% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+Running "Decode URL - space" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    2 198 707 ops/s, ±0.63%   | fastest
+
+  hexo-util:
+    508 571 ops/s, ±0.75%     | slowest, 76.87% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+Running "Decode URL - hash and query" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    1 397 140 ops/s, ±0.66%   | fastest
+
+  hexo-util:
+    419 849 ops/s, ±0.40%     | slowest, 69.95% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+Running "Decode URL - Internationalized domain name" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    823 011 ops/s, ±0.51%   | fastest
+
+  hexo-util:
+    323 652 ops/s, ±0.53%   | slowest, 60.67% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+```
+
+</details>
+
+<details>
+<summary>Escape Diacritic</summary>
+
+```
+❯ yarn bench
+Running "default" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    6 176 682 ops/s, ±0.39%   | fastest
+
+  hexo-util:
+    4 482 562 ops/s, ±0.67%   | slowest, 27.43% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+```
+
+</details>
+
+<details>
+<summary>Unescape HTML</summary>
+
+```
+❯ yarn bench
+Running "mini fixture" suite...
+Progress: 100%
+
+  hexo-util-rs-buffer:
+    1 722 503 ops/s, ±0.43%   | 1.14% slower
+
+  hexo-util-rs:
+    1 742 336 ops/s, ±0.31%   | fastest
+
+  hexo-util:
+    1 107 416 ops/s, ±0.35%   | slowest, 36.44% slower
+
+Finished 3 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+Running "large fixture" suite...
+Progress: 100%
+
+  hexo-util-rs-buffer:
+    47 329 ops/s, ±0.24%   | fastest
+
+  hexo-util-rs:
+    46 009 ops/s, ±0.50%   | 2.79% slower
+
+  hexo-util:
+    24 642 ops/s, ±0.53%   | slowest, 47.93% slower
+
+Finished 3 cases!
+  Fastest: hexo-util-rs-buffer
+  Slowest: hexo-util
+```
+
+</details>
+
+<details>
+<summary>Escape HTML</summary>
+
+```
+❯ yarn bench
+Running "mini fixture" suite...
+Progress: 100%
+
+  hexo-util-rs-buffer:
+    2 889 588 ops/s, ±0.83%   | 10.76% slower
+
+  hexo-util-rs:
+    3 237 871 ops/s, ±0.33%   | fastest
+
+  hexo-util:
+    2 049 933 ops/s, ±0.33%   | slowest, 36.69% slower
+
+Finished 3 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+Running "large fixture" suite...
+Progress: 100%
+
+  hexo-util-rs-buffer:
+    198 797 ops/s, ±0.49%   | fastest
+
+  hexo-util-rs:
+    194 760 ops/s, ±0.34%   | 2.03% slower
+
+  hexo-util:
+    38 673 ops/s, ±0.44%    | slowest, 80.55% slower
+
+Finished 3 cases!
+  Fastest: hexo-util-rs-buffer
+  Slowest: hexo-util
+```
+
+</details>
+
+<details>
+<summary>Escape RegExp</summary>
+
+```
+❯ yarn bench
+Running "default" suite...
+Progress: 100%
+
+  hexo-util-rs:
+    6 598 420 ops/s, ±0.56%   | fastest
+
+  hexo-util:
+    4 370 517 ops/s, ±0.38%   | slowest, 33.76% slower
+
+Finished 2 cases!
+  Fastest: hexo-util-rs
+  Slowest: hexo-util
+```
+
+</details>
+
+<details>
+<summary>Word Wrap </summary>
+
+```
+❯ yarn bench
+Running "Word Wrap" suite...
+Progress: 100%
+
+  hexo-util:
+    955 749 ops/s, ±0.45%     | slowest, 75.32% slower
+
+  hexo-util-rs:
+    3 872 860 ops/s, ±0.46%   | fastest
 
 Finished 2 cases!
   Fastest: hexo-util-rs
